@@ -1,0 +1,29 @@
+@import './reset';
+
+.container {
+	background: #f9f9f9;
+
+	h1 {
+		padding: 2rem;
+	}
+
+	#output {
+		max-width: 900px;
+
+		img {
+			max-width: 100%;
+			margin: 1rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#output {
+		flex-direction: column;
+		align-items: center;
+
+		.gallery {
+			max-width: 400px;
+		}
+	}
+}

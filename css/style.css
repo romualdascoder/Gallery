@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #f9f9f9;
+}
+
+.container h1 {
+  padding: 2rem;
+}
+
+.container #output {
+  max-width: 900px;
+}
+
+.container #output img {
+  max-width: 100%;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  #output {
+    flex-direction: column;
+    align-items: center;
+  }
+  #output .gallery {
+    max-width: 400px;
+  }
+}
